@@ -10,7 +10,6 @@ import {
   InstagramIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -201,8 +200,8 @@ function Resume() {
       },
     },
     {
-      company: 'Career Transition',
-      title: 'Full Stack Coding Bootcamp',
+      company: 'Full Stack Coding Bootcamp',
+      title: 'Career Transition',
       logo: uci_logo,
       start: '2022',
       end: '2023',
