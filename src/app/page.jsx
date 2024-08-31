@@ -111,7 +111,7 @@ function Newsletter() {
   return (
     <form
       action="/thank-you"
-      className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+      className="rounded-2xl border-2 border-zinc-200/20 p-6"
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <MailIcon className="h-6 w-6 flex-none" />
@@ -126,7 +126,7 @@ function Newsletter() {
           placeholder="Email address"
           aria-label="Email address"
           required
-          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 sm:text-sm dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10"
+          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-rose-500 focus:outline-none focus:ring-4 focus:ring-rose-500/10 sm:text-sm dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-blue-00 dark:focus:ring-blue-00/10"
         />
         <Button type="submit" className="ml-4 flex-none">
           Send
@@ -223,7 +223,7 @@ function Resume() {
   ]
 
   return (
-    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+    <div className="rounded-2xl border-2 border-zinc-200/20 p-6">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Work</span>
