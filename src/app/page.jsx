@@ -266,7 +266,6 @@ export default async function Home() {
             I’m Mony, a fullstack web developer based in Los Angeles, CA. I specialize in creating user-friendly and responsive websites and web applications to help businesses grow.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
               href="#"
               aria-label="Follow on Instagram"
@@ -282,6 +281,11 @@ export default async function Home() {
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
+          </div>
+          <div className='mt-6'>
+            <Button href='/projects' variant='primary'>
+              View my work
+            </Button>
           </div>
         </div>
       </Container>
