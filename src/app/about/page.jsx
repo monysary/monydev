@@ -67,7 +67,7 @@ export default function About() {
               After roughly six years in laboratory science, I've decided to take my passion for technology and transitioned into the field of web development.
             </p>
             <p>
-              Outside of my passion for coding and software development, I dive into my various other hobbies.
+              Outside of my passion for coding, web, and software development, I dive into my various other hobbies.
               During my free time, I enjoy outdoors activities and sports such as tennis, golf, hiking, and bouldering, just to name a few.
               I also love playing video games, which was where a lot of my passion for science and technology stemmed from.
               My hobbies, on top of my very supportive family, are what keeps me grounded and sane as I traverse through the ups and downs of life.
@@ -93,7 +93,7 @@ export default function About() {
             <SocialLink
               href="mailto:sary.mony@gmail.com"
               icon={MailIcon}
-              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+              className="mt-8 border-t-2 border-zinc-200/20 pt-8"
             >
               sary.mony@gmail.com
             </SocialLink>

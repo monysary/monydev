@@ -24,12 +24,12 @@ function Appearance({ title, description, event, cta, href }) {
 }
 
 export const metadata = {
-  title: 'Speaking',
+  title: 'Services',
   description:
     'I’ve spoken at events all around the world and been interviewed for many podcasts.',
 }
 
-export default function Speaking() {
+export default function Services() {
   return (
     <SimpleLayout
       title="I’ve spoken at events all around the world and been interviewed for many podcasts."
