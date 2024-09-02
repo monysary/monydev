@@ -62,9 +62,9 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              My professional background begins in the world of laboratory science, where I worked as a Senior Researcher and Lab Manager in a molecular biology lab.
-              During my time in this space, I honed my skills in problem solving, cross team collaboration, and managing numerous complect projects.
-              After roughly six years in laboratory science, I've decided to take my passion for technology and transitioned into the field of web development.
+              My professional background begins in the world of laboratory science, where I worked as a Senior Researcher and Lab Manager in a clinical lab.
+              During my time in this space, I honed my skills in problem solving, cross team collaboration, and managing numerous complex projects.
+              After roughly six years in laboratory science, I've decided to take my passion for technology and transitioned into the field of software development.
             </p>
             <p>
               Outside of my passion for coding, web, and software development, I dive into my various other hobbies.
@@ -73,8 +73,8 @@ export default function About() {
               My hobbies, on top of my very supportive family, are what keeps me grounded and sane as I traverse through the ups and downs of life.
             </p>
             <p>
-              As Web Developer, I bring a unique blend of analytical thinking from my science background and creative problem solving from my experience in web development.
-              I'm excited to help businesses and individuals create an online presence by building effective and visually appealing website and web applications.
+              As a Web Developer, I bring a unique blend of analytical thinking from my science background and creative problem solving from my experience in web development.
+              I'm excited to help businesses and individuals create an online presence by building effective and visually appealing websites and web applications.
               Whether it's building brand new websites or optimizing existing ones, I'm here with help share your passion with the rest of world.
             </p>
           </div>

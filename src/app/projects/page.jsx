@@ -51,14 +51,15 @@ function LinkIcon(props) {
 
 export const metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description: 'Client Projects and Personal Creations',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Client Projects and Personal Creations"
+      intro="Here is a collection of projects I've had the pleasure of developing, from real client projects to personal endeavors that highlight my skills and creativity.
+      I invite you to explore these examples to get a sense of what I can do and how I can help bring your vision to life."
     >
       <ul
         role="list"
