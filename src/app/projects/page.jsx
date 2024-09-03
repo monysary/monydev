@@ -2,39 +2,23 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+import merakii_logo from '@/images/logos/merakii_logo.png'
+import teeanafc_logo from '@/images/logos/teeanafc_logo.png'
 
 const projects = [
   {
-    name: 'Animaginary',
+    name: 'Merakii Music',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'Personal website for LA based electronic DJ and music producer.',
+    link: { href: 'https://monysary.github.io/merakiiwebsite/', label: 'www.merakiimusic.com' },
+    logo: merakii_logo,
   },
   {
-    name: 'HelioStream',
+    name: 'TeeanaFC',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      "Showcasing the passion and creativity of a yoga instructor who's also an artist and photographer.",
+    link: { href: 'https://teeanafc.vercel.app/', label: 'www.teeanafc.com' },
+    logo: teeanafc_logo,
   },
 ]
 
